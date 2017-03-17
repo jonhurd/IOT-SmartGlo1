@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-SmartGlo1
+  host: IOT-SmartGlo1
+  disk_quota: 1024M
+  services:
+  - IOT-SmartGlo1-cloudantNoSQLDB
+  - IOT-SmartGlo1-iotf-service
